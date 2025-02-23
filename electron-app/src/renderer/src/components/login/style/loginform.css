@@ -1,0 +1,15 @@
+/* Добавьте в ваш CSS-файл */
+.custom-input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.custom-password .p-password-toggle {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+}
