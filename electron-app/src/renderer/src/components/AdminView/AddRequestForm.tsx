@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { InputText } from "primereact/inputtext";
 import { Dropdown } from "primereact/dropdown";
 import { Button } from "primereact/button";
@@ -8,7 +8,7 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
 
-export const AddRequestForm = () => {
+const AddRequestForm = () => {
     const [equipmentType, setEquipmentType] = useState('');
     const [model, setModel] = useState('');
     const [problemDescription, setProblemDescription] = useState('');
@@ -102,3 +102,4 @@ export const AddRequestForm = () => {
     )
 }
 
+export default AddRequestForm;
