@@ -35,6 +35,11 @@ const AdminMenu = () => {
             icon: 'pi pi-fw pi-chart-bar',
             command: () => navigate('/admin/statistics'),
         },
+        {
+            label: 'Назначить мастера',
+            command: () => navigate('/admin/assign-master'),
+
+        },
     ];
 
     const menubarStyle: React.CSSProperties = {

@@ -32,17 +32,14 @@ const LoginForm: React.FC = () => {
                 case 'admin':
                     navigate('/admin');
                     break;
-                case 'operator':
-                    navigate('/operator');
-                    break;
-                case 'guest':
-                    navigate('/guest');
+                case 'user':
+                    navigate('/user');
                     break;
                 case 'master':
                     navigate('/master');
                     break;
                 default:
-                    navigate('/guest');
+                    navigate('/user');
                     break;
             }
         } else {

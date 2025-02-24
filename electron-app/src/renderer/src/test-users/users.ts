@@ -10,9 +10,9 @@ const users = [
         role:'operator',
     },
     {
-        username:'guest',
-        password:'guest123',
-        role:'guest',
+        username:'user',
+        password:'user123',
+        role:'user',
     },
     {
         username:'master',
